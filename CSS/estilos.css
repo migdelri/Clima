@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del cabecero */
+  .cabecero {
+    background-image: url('/css/nuves.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .clima_titulo {
+    margin: 0;
+    color: #333;
+  }
+  
+  .clima_valor {
+    margin-top: 20px;
+  }
+  
+  .clima_valor label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .clima_valor input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .contenedor {
+    text-align: center;
+  }
+  
+  
+  .tablaclim {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+  
+  .tablaclim th,
+  .tablaclim td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos del botón */
+  button {
+    text-align: center;
+    padding: 10px 200px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
